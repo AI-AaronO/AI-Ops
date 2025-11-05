@@ -4,18 +4,18 @@
 
 ---
 
-## Demos
+Demos
 
-### 1. AI SQL Assistant
-→ Ask in English → Get SQL in **<2 seconds**  
+1. AI SQL Assistant
+Ask in English → Get SQL 
 `python ai-sql-assistant.py`
 
-### 2. Zero-Touch SQL Deploy
-→ Full Azure SQL + pgvector in **<5 minutes**  
+2. Zero-Touch SQL Deploy
+Full Azure SQL + pgvector
 `terraform apply`
 
-### 3. AI Ops Dashboard
-→ Live monitoring of Copilot suggestions  
+3. AI Ops Dashboard
+Live monitoring of Copilot suggestions  
 Import JSON into **Grafana**
 
 ---

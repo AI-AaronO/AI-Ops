@@ -1,0 +1,19 @@
+{
+  "title": "AI Ops: Copilot SQL Tuning Monitor",
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Queries Tuned by Copilot",
+      "targets": [{ "expr": "sum(copilot_suggestions_applied)" }]
+    },
+    {
+      "type": "timeseries",
+      "title": "Latency Before/After AI",
+      "targets": [
+        { "expr": "avg(query_latency_before)" },
+        { "expr": "avg(query_latency_after)" }
+      ]
+    }
+  ],
+  "refresh": "30s"
+}
